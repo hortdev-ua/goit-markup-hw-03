@@ -1,0 +1,168 @@
+/* Общие стили */
+
+:root {
+  --primary-text-color: #2e2f42;
+  --text-color: #434455;
+  --footer-text-color: #e7e9fc;
+  --background-white-color: #f4f4fd;
+  --iris-color: #4d5ae5;
+  --white-color: #ffffff;
+  --accent-color: #404bbf;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Шапка сайта */
+
+.logo {
+  font-family: "raleway", sans-serif;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.logo-text {
+  color: var(--iris-color);
+}
+
+/* Навигацыя */
+
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-color);
+}
+
+.nav-address {
+  font-style: normal;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.link-address {
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Герой */
+
+.section-hero {
+  left: 0px;
+  top: 72px;
+  background-color: var(--primary-text-color);
+}
+
+.title-hero {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+/* Кнопки */
+.primary-button {
+  width: 169px;
+  height: 56px;
+  left: 623px;
+  top: 424px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background: var(--iris-color);
+  color: var(--white-color);
+  border-radius: 4px;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  background: var(--accent-color);
+  color: var(--white-color);
+}
+
+.secondary-button {
+  align-items: center;
+  padding: 12px 24px;
+  height: 48px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background: var(--background-white-color);
+  color: var(--iris-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  background: var(--accent-color);
+  color: var(--background-white-color);
+}
+
+/* Секции */
+
+.section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+}
+
+.title-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--primary-text-color);
+}
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.team-section {
+  background-color: var(--background-white-color);
+}
+
+/* Подвал */
+
+.footer-site {
+  top: 2280px;
+  background-color: var(--primary-text-color);
+}
+
+.footer-logo {
+  text-decoration: none;
+  font-family: raleway;
+  color: var(--background-white-color);
+}
+
+.footer-object {
+  color: var(--iris-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--footer-text-color);
+}
