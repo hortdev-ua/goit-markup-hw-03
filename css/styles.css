@@ -16,8 +16,29 @@ body {
   color: var(--text-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Шапка сайта */
@@ -26,6 +47,7 @@ ul {
   font-family: "raleway", sans-serif;
   text-decoration: none;
   color: var(--primary-text-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .logo-text {
@@ -59,12 +81,20 @@ ul {
   color: var(--text-color);
 }
 
+/* .page-header {
+  margin-bottom: 188px;
+} */
+
 /* Герой */
 
 .section-hero {
+  text-align: center;
   left: 0px;
   top: 72px;
   background-color: var(--primary-text-color);
+  margin-bottom: 120px;
+  outline: 2px solid tomato;
+  padding-bottom: 188px;
 }
 
 .title-hero {
@@ -75,6 +105,8 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  padding-top: 188px;
+  margin-bottom: 48px;
 }
 /* Кнопки */
 .primary-button {
@@ -89,8 +121,9 @@ ul {
   background: var(--iris-color);
   color: var(--white-color);
   border-radius: 4px;
-  border: 0px solid;
+  border: 1px solid transparent;
   cursor: pointer;
+  
 }
 
 .primary-button:hover,
@@ -142,6 +175,10 @@ ul {
 
 .team-section {
   background-color: var(--background-white-color);
+}
+
+.list-item {
+  margin-bottom: 120px;
 }
 
 /* Подвал */
