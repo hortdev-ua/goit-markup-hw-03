@@ -60,6 +60,9 @@ img {
   display: flex;
   align-items: center;
   font-weight: 500;
+}
+
+.site-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -101,7 +104,7 @@ img {
 }
 .address-nav {
   display: block;
-
+  font-weight: 400;
   padding-top: 24px;
   padding-bottom: 24px;
   color: var(--text-color);
@@ -351,8 +354,14 @@ img {
 }
 
 .portfolio-img {
-  border: 1px solid #e7e9fc;
   margin-bottom: 48px;
+}
+
+.portfolio-img-two:not(:last-child) {
+  margin-right: 23px;
+}
+
+.portfolio-img-thee:not(:last-child) {
 }
 
 .postcard-prtf {
