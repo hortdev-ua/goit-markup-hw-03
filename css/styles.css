@@ -309,7 +309,6 @@ img {
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  width: 1158px;
 }
 
 .list-button {
@@ -353,15 +352,12 @@ img {
   margin-right: 23px;
 }
 
-.portfolio-img {
+.portfolio-img:nth-child(-n + 6) {
   margin-bottom: 48px;
 }
 
-.portfolio-img-two:not(:last-child) {
-  margin-right: 23px;
-}
-
-.portfolio-img-thee:not(:last-child) {
+.portfolio-img:nth-child(3n) {
+  margin-right: -24px;
 }
 
 .postcard-prtf {
